@@ -3,9 +3,11 @@
 *::after {
   box-sizing: border-box;
 }
+
 html {
   height: 100%;
 }
+
 body {
   height: 100%;
   min-width: 800px;
@@ -16,6 +18,7 @@ body {
   position: relative;
   background-color: #e2b4d6;
 }
+
 body::before {
   content: "";
   position: absolute;
@@ -23,6 +26,7 @@ body::before {
   z-index: 1;
   background-color: rgb(255 255 255 / 0.3);
 }
+
 h1,
 h2,
 h3,
